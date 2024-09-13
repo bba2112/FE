@@ -1,0 +1,46 @@
+
+body {
+    max-width: 1440px;
+    padding: 15px;
+    background-color: white;
+}
+
+.menu {
+    list-style: none;
+    transition: 0.3 ease; 
+    display: inline-flex;
+    padding-right: 20px;
+}
+
+.menu li {
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.menu a:hover {
+    background-color: hsl(204, 98%, 65%);
+    color: #000;
+}
+
+.banner {
+    padding: 20px;
+    justify-content: flex-end;
+    min-width: 100%;
+    height: auto;
+}
+
+.header-content {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+
+
