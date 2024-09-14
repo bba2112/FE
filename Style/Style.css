@@ -1,4 +1,3 @@
-
 body {
     max-width: 1440px;
     padding: 15px;
@@ -7,9 +6,9 @@ body {
 
 .menu {
     list-style: none;
-    transition: 0.3 ease; 
+    transition: 0.3emms;
     display: inline-flex;
-    padding-right: 20px;
+    margin-right: 10px;
 }
 
 .menu li {
@@ -23,24 +22,24 @@ body {
 }
 
 .menu a:hover {
-    background-color: hsl(204, 98%, 65%);
+    background-color: hsl(194, 100%, 67%);
     color: #000;
-}
-
-.banner {
-    padding: 20px;
-    justify-content: flex-end;
-    min-width: 100%;
-    height: auto;
 }
 
 .header-content {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     vertical-align: middle;
     box-sizing: border-box;
+    height: auto;
 }
-
-
-
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+  @media (min-width: 300px) {
+    .container {
+      flex-direction: column;
+    }
+  }
